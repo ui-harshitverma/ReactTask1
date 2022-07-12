@@ -1,0 +1,68 @@
+.d-flex-drop form {
+    display: flex;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+}
+.dropDown_item {
+    width: calc(100% / 4);
+}
+.dropDown_item select {
+    font-size: 17px;
+    width: 88%;
+    outline: none;
+    padding: 15px 11px;
+    border: 1px solid #ddd;
+    background: white;
+    font-family: system-ui;
+    appearance: none;
+}
+.dropDownFind_container {
+    transform: translateY(-40px);
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 1200px) {
+    .dropDownFind_container {
+        transform: translateY(0px);
+        padding: 50px 0 30px 0;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .dropDown_item {
+        width: calc(100% / 2);
+    }
+
+    .d-flex-drop form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dropDown_item {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 766px) {
+    .dropDown_item {
+        width: 100%;
+    }
+    .dropDown_item select {
+        width: 100%;
+    }
+
+    .max-width {
+        margin: 0 3%;
+    }
+
+}

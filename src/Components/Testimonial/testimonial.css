@@ -1,0 +1,81 @@
+.Testimonial_container h3 {
+    font-size: 44px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: #071c1f;
+}
+
+.client_details {
+    display: flex;
+    align-items: center;
+}
+.client_img img {
+    width: 100%;
+    height: 100%;
+	border-radius: 50%;
+}
+
+.client_img {
+    max-width: 55px;
+    margin-right: 20px;
+}
+.client_details h5 {
+    font-size: 18px;
+    padding-bottom: 4px;
+    color: #071c1f;
+    font-weight: 500;
+}
+
+.client_details label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #5c727d;
+}
+.Testimonial_item p {
+    font-size: 17px;
+    text-align: start;
+    color: #5c727d;
+    line-height: 33px;
+    margin-bottom: 23px;
+}
+.Testimonial_item {
+    width: 93%;
+    padding: 30px 35px 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    margin: 0 auto;
+	position: relative;
+    margin-bottom: 25px;
+}
+
+.Testimonial_container {
+    background: url(https://tunatheme.com/tf/react/quarter-preview/quarter/assets/img/bg/20.jpg);
+    background-position: -304px -31px;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.Testimonial_item svg {
+    font-size: 30px;
+}
+
+.Testimonial_item:hover svg{
+	color: #ff5a3c;
+}
+
+.Testimonial_item::after {
+    position: absolute;
+    content: "";
+    background: #ff5a3c;
+    height: 4px;
+    width: 0%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    transition: .3s all ease-in;
+}
+.Testimonial_item:hover::after {
+    width: 100%;
+}

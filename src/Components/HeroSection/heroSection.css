@@ -1,0 +1,133 @@
+.d-flex-hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+}
+.hero_section_item h2 {
+    font-size: 50px;
+    line-height: 53px;
+    color: #071c1f;
+    margin: 20px 0;
+}
+.hero_section_item p {
+    color: #5c727d;
+    border-left: 1px solid #576466;
+    padding: 0px 0px 0px 30px;
+    line-height: 1.7rem;
+}
+.hero_section_item img{
+    width: 100%;
+    height: 100%;
+}
+.hero_section_item{
+    width: 50%;
+}
+.hero_section_item img {
+    padding-top: 50px;
+}
+.hero_section_container {
+    background-color: #f2f6f7;
+}
+.hero_section_btns a {
+    text-decoration-line: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.hero_section_btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.main_btn {
+    background-color: #ff5a3c;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 17px 40px;
+    margin-right: 15px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+}
+.main_btn:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease 0s; ;
+}
+.main_btn:hover::after {
+    width: 100%;
+}
+.main_btn:hover{
+    color:  #071c1f;
+    background-color: #000;
+    outline: 1px solid #000;
+}
+svg.slick-arrow.slick-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    left: 20px;
+    visibility: hidden;
+}
+.hero_section_container:hover svg.slick-arrow.slick-prev {
+    left: 10px;
+    visibility: visible;
+}
+svg.slick-arrow.slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    right: 20px;
+    visibility: hidden;
+}
+.hero_section_container:hover svg.slick-arrow.slick-next {
+    right: 10px;
+    visibility: visible;
+}
+svg.slick-arrow {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e5eaee;
+    padding: 13px;
+    transition: .3s all ease-in-out;
+}
+svg.slick-arrow path{
+    color: #000000;
+    font-size: 20px;
+}
+svg.slick-arrow:hover{
+    background-color: #ff5a3c;
+}
+svg.slick-arrow:hover path{
+    color: #fff;
+}
+.slick-dots li.slick-active button:before {
+    color: #ff5a3c;
+}
+.hero_section_item svg {
+    color: #ff5a3c;
+    font-size: 18px;
+}
+.icon_d-flex{
+    display: flex;
+    align-items: center;
+}
+.small_title{
+    padding-left: 8px;
+}
+.video_btn {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 73px;
+    background: #fff;
+    border-radius: 100%;
+}
+.video_btn svg {
+    font-size: 25px;
+}

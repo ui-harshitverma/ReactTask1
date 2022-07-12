@@ -1,0 +1,127 @@
+.Featured_Container h2 {
+    font-size: 44px;
+    color: #071c1f;
+    margin-bottom: 15px;
+}
+.Featured_Container h3 {
+    font-size: 22px;
+    color: #071c1f;
+    margin-top: 15px;
+}
+.Featured_Container{
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.Featured_item_container{
+    display: flex;
+}
+.Featured_item_container > div{
+    width: 100%;
+} 
+.author_img img{
+    width: 100%;
+    height: 100%;
+}
+.Featured_item_container img{
+    width: 100%;
+    height: 100%;
+}
+.author_flex {
+    display: flex;
+    align-items: center;
+}
+.d-flex_col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_list {
+    list-style-type: none;
+    display: flex;
+    color: #5c727d;
+}
+ul.icon_list li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+ul.icon_list li:first-child{
+    padding-left: unset;
+}
+ul.list_icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.author_img {
+    max-width: 55px;
+    margin-right: 10px;
+}
+.author_img img{
+    border-radius: 50%;
+}
+.max-width_featured {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.child_container {
+    margin-left: 15px;
+    box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+ul.list_icons li {
+    padding: 10px;
+    margin-right: 10px;
+    background: #ddd;
+}
+.list_icons svg {
+    color: #545454;
+}
+.author_name a {
+    color: #000;
+    text-decoration-line: none;
+}
+.text-start{
+    text-align: start;
+}
+.product_price {
+    text-align: start;
+    color: #ff5a3c;
+    font-weight: 600;
+}
+.child_container p {
+    padding: 10px 0 20px 0;
+    line-height: 26px;
+    color: #5c727d;
+}
+.author_flex small {
+    color: #5c727d;
+}
+.product_price label {
+    font-weight: 400;
+}
+.Featured_item_container .slick-slide {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slick-dots li button:before {
+    font-size: 14px;
+}
+.slick-dots li.slick-active button:before {
+    font-size: 20px;
+    color: #ff5a3c;
+}
+.p-30{
+    padding: 30px;
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .max-width_featured{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

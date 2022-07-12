@@ -1,0 +1,31 @@
+.property_item h3 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.property_item p{
+	color: #fff;
+}
+
+.property_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    background: #ff5a3c;
+}
+
+.property_container {
+    transform: translateY(85px);
+}
+
+
+
+@media (max-width: 1008px){
+    .property_items {
+        flex-direction: column;
+    }
+    .property_item {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,72 @@
+.sidebar__container {
+    width: 350px;
+    min-height: 100vh;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 1000;
+    padding: 40px;
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    transition: 0.5s all linear;
+    background-color: #fff;
+}
+
+.cross_icon svg {
+    font-size: 25px;
+}
+
+.active{
+    left: 0;
+}
+.imgContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.input_field svg {
+    font-size: 25px;
+}
+
+.input_field input {
+    padding: 13px;
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 53px;
+}
+
+
+.input_field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+    border: 1px solid #dceaf5;
+}
+
+.input_field span {
+    background: #fff;
+    padding: 12px;
+}
+.mobile_nav_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.mobile_nav {
+    margin: 40px 0;
+}
+.mobile_nav_item a {
+    text-decoration-line: none;
+    color: #000;
+}
+.mobile_nav {
+    margin: 40px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}

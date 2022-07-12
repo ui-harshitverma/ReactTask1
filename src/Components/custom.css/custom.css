@@ -1,0 +1,53 @@
+:root{
+    --color-primary:#ff5a3c;
+    --blue:#071c1f;
+    --text-color:#5c727d;
+}
+
+.tag {
+    color: #ff5a3c;
+    background: #f5dfdc;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.max-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .max-width{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .max-width{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header_icons span:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .max-width{
+        max-width: initial;
+        margin: 0 3%;
+    }
+}
